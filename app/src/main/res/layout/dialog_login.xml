@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="100dp"
+
+    android:background="@android:color/transparent"
+    android:gravity="center"
+    android:layout_height="100dp">
+    <com.wang.avi.AVLoadingIndicatorView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:id="@+id/avi"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        style="@style/AVLoadingIndicatorView.Small"
+        android:visibility="visible"
+        app:indicatorName="BallGridPulseIndicator"
+        app:indicatorColor="#ffb916"
+        />
+</LinearLayout>
